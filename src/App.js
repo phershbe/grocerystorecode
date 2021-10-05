@@ -21,7 +21,8 @@ class App extends React.Component {
       total: 0.00
     }
   }
-
+  
+  /// below are the functions to change the state of the quantity, price of fruit, and total price
   incrementApples = () => {
     this.setState({applesCount: this.state.applesCount + 1});
     this.setState({applesPrice: this.state.applesPrice + 1.59});
